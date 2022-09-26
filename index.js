@@ -17,8 +17,6 @@ app.get('/', (req, res, next) => {
     })
 })
 
-console.log('test')
-
 const server = app.listen('8080', () => {
     // Need to disable rule to display that Express.js is running already
     // eslint-disable-next-line no-console
