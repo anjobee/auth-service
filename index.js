@@ -70,7 +70,5 @@ app.get('/verify/token', (req, res, next) => {
 })
 
 const server = app.listen('8080', () => {
-    // Need to disable rule to display that Express.js is running already
-    // eslint-disable-next-line no-console
     console.log(`Express is running on port ${server.address().port}.`)
 })
